@@ -1,0 +1,374 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+\usepackage{graphicx}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+%\begin{minipage}[t]{0.1\textwidth} % 45% of the page 
+%\begin{figure}[h!]
+ % \includegraphics[width=0.1\columnwidth]{pp.jpg}
+%\end{figure}
+
+%	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Azfar}}}}} % First name
+%\end{minipage}
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Azfar}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Alsukor}}}}} % Last name
+
+	% \colorbox{black}{{\fontsize{17}{1}\textcolor{white}{\textbf{\MakeUppercase{Aznirulhisham}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+%	\href{https://www.openstreetmap.org/#map=13/3.0605/101.5302}{\icon{MapMarker}{12}{Shah Alam}}\\
+	\href{https://www.openstreetmap.org/relation/2939672}{\icon{MapMarker}{12}{Kuala Lumpur}}\\
+	\href{tel:+60192968478}{\icon{Phone}{12}{+60 19 296 8478}}\\
+	\href{https://github.com/azfaralsukor}{\icon{Github}{12}{azfaralsukor}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages	
+	\href{mailto:azfaralsukor@gmail.com}{\icon{At}{12}}{\href{mailto:azfaralsukor@gmail.com}{azfaralsukor@gmail.com}}
+
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+%	\icon{Globe}{12}{\href{https://www.azfaralsukor.xyz}{azfaralsukor.xyz}}\\
+	\href{whatsapp://send?phone=60192968478}{\icon{Whatsapp}{12}{+60 19 296 8478}}\\
+	\href{https://www.linkedin.com/in/azfaralsukor}{\icon{Linkedin}{12}{Azfar Alsukor}}\\
+%	\icon{Twitter}{12}{\href{https://twitter.com/@azfaralsukor}{@azfaralsukor}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	 \cvsect{Who Am I?}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\\
+	%	Mad
+\\	Fullstack web tech enthusiast. 
+%Constantly learns new technologies, 
+	Interested in open-source projects. 
+%	Highly interested in artificial intelligence and internet of things, 
+	A team player, out-of-the-box thinker, a minimalist.
+	Writes efficient, neat and tight with well designed architecture codes and 
+	prefers indentation using spaces over tabs. 
+	
+%Prefers Vim over Emacs.
+%	Ultimate goal is to be an artificial intelligent internet of things developer. 
+	%Possibility of solution is endless and will not stop until achieve what I desire.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth}
+	\cvsect{Skills}
+\\
+	\vspace{-\baselineskip} % Required for vertically aligning minipages	
+	\begin{barchart}{4}
+		\baritem{Web Development}{75}
+		\baritem{Mobile Development (\href{https://flutter.dev/}{Flutter})}{35}
+		\baritem{UNIX Scripting}{85}		
+		\baritem{Version Control (\href{https://git-scm.com/}{git})}{70}
+		\baritem{Internet of Things}{50}
+	\end{barchart}
+\end{minipage}
+
+%\begin{center}
+%	\cvsect{Technologies}
+%	\bubbles{3/VS Code, 0/, 4/git, 0/, 2/Artificial Intelligence}
+%	\bubbles{0/, 5/Linux, 0/, 4/Internet Of Things, 0/}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experiences}
+
+\begin{entrylist}
+	\entry
+		{April 2017 ---}
+		{Software Engineer}
+		{\href{https://www.dattel.asia/}{Dattel Sdn. Bhd.}}
+		{{\footnotesize{Dattel Sdn. Bhd. is a data collection and analyzing provider that maximizes information technology to conduct surveys across respondents and panelists. The company established an in-house engineering team to cater its own unique business strategy and embraces agile methodology in software development life cycle.}} 
+\\ \\
+		{\textsc{Survey Management System \& Quality Assurance System}} \\
+			{\small Develops new module and functions as per requirement.
+			\begin{itemize}
+				\item Partnered with system analysts, product owners and test engineers to deliver high quality modules and functions.
+				\item Created RESTful APIs with MVC Pattern best practices
+				\item Created script to automate tiresome jobs
+				\item Aggressively adopts \href{https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/}{\textit{Language Integrated Query} (LINQ)} onto codes to reduce code size and increase readability
+				\item Designed user-friendly pages with HTML, CSS, JQuery, AJAX and JavaScript
+				\item MySQL with ORM
+			\end{itemize}}
+			\texttt{\href{https://docs.telerik.com/aspnet-mvc/introduction}{Telerik UI}}
+				\slashsep
+			\texttt{\href{https://cradt.wordpress.com/}{CRADT}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/standard/index}{.NET}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/csharp/}{C\#}}
+				\slashsep
+			\texttt{\href{https://www.mysql.com/}{MySQL}}
+\\
+
+		\textsc{Entrance Snapshot} \\
+			{\small Takes a snapshot when there's moving person in targeted area. The picture taken was published by Raspberry Pi and captured by server using MQTT. The pictures later helped to train deep learning classifier to distinguish the moving persons whether they are men or women.
+			\begin{itemize}
+				\item Designed the architecture for the entire ecosystem
+				\item Detects moving person using image processing background subtraction technique
+				\item Established a lightweight connection between Raspberry Pi to server
+			\end{itemize}}
+			\texttt{\href{https://opencv.org/}{OpenCV}}
+				\slashsep
+			\texttt{\href{https://www.python.org/}{Python}}
+				\slashsep
+			\texttt{\href{http://mqtt.org/}{MQTT}}
+				\slashsep
+			\texttt{\href{https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/}{Raspberry Pi}}
+				\slashsep
+			\texttt{\href{https://www.raspberrypi.org/products/camera-module-v2/}{PiCamera}}
+\\
+
+		\textsc{Question Builder} \\
+			{\small Short term involvement to enhance the scalability and improve UI/UX.
+			\begin{itemize}
+				\item Improved API logic flow and increased speed by 7 times (50 seconds to 7 seconds)
+				\item Wrote testing script to compare several endpoints after refactoring the API
+				\item Paginated big web page to reduce render cost
+				\item Amended UI/UX design to further express functionalities, to give feedback and denote users are in which state of the application
+			\end{itemize}}
+			\texttt{\href{https://angularjs.org/}{AngularJS}}
+				\slashsep
+			\texttt{\href{https://cradt.wordpress.com/}{CRADT}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/standard/index}{.NET}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/csharp/}{C\#}}
+\\
+
+		\textsc{Statistical Analysis Platform} \\
+			{\small The front line product of Dattel Sdn. Bhd.
+			\begin{itemize}
+				\item Designed and developed user profile API controller using MVC pattern
+				\item Created user profile page from design blueprint
+				\item Designed web pages using \href{https://material.io/}{Material Design} guideline 
+				\item Apply Redux to manage states between components
+				\item Developed endpoints using MongoDB with asynchronous programming
+			\end{itemize}}
+			\texttt{\href{https://reactjs.org/}{ReactJS}}
+				\slashsep
+			\texttt{\href{https://redux.js.org/}{Redux}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/standard/index}{.NET}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/csharp/}{C\#}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/aspnet/entity-framework}{Entity Framework}}
+				\slashsep
+			\texttt{\href{https://www.mysql.com/}{MySQL}}
+				\slashsep
+			\texttt{\href{https://www.mongodb.com/}{MongoDB}}
+%				\slashsep
+%			\texttt{\href{https://hadoop.apache.org/}{Hadoop}}
+		}
+	\entry
+		{March - June 2016\\\footnotesize{intern}}
+		{Software Engineer}
+		{\href{http://juristech.net/juristech/}{Juris Technologies}}
+		{{\footnotesize{\href{http://juristech.net/juristech/about-us/}{Juris Technologies is a Malaysian financial technology company that serves most major banks in Malaysia.}}} \\
+		\\ 
+		{{\textsc{Debt Collection System}} \\
+			{\small One of the team members for post-development period support for debt collection system.
+			\begin{itemize}
+				\item Responsible to deliver high quality, bug-free module to deliver to client
+				\item Implemented good practices to avoid SQL injection
+				\item Writes clean, readable and optimum procedural language using PL/SQL
+				\item Started a testing project for internal use before going through UAT process
+			\end{itemize}}
+			\texttt{\href{https://framework.zend.com/}{Zend}}
+				\slashsep
+			\texttt{\href{https://secure.php.net/}{PHP}}
+				\slashsep
+			\texttt{\href{http://adodb.org/dokuwiki/doku.php}{ADOdb}}
+				\slashsep
+			\texttt{\href{https://www.oracle.com/technetwork/database/features/plsql/index.html}{Oracle PL/SQL}}
+		}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+%\newpage
+\cvsect{Educational Background}
+
+\begin{entrylist}
+	\entry
+		{Class of 2017}
+		{Bachelor's Degree}
+		{\href{https://www.mmu.edu.my/}{Multimedia University}}
+		{BSc (Hons) of Computer Science. CGPA: 3.24 \\
+ 		Final Year Project: \textit{Driving Speed and Distance Computation using On-board Image Processing for Galileo Board} \\
+			\texttt{\href{https://opencv.org/}{OpenCV}}
+				\slashsep
+			\texttt{\href{https://isocpp.org/}{C++}}
+				\slashsep
+			\texttt{\href{https://software.intel.com/en-us/get-started-galileo-windows}{Intel Galileo}}
+		}
+	\entry
+		{2011}
+		{Certificate of ICCS (International Certificate of Computer Studies)}
+		{\href{http://www.al-zaytun.sch.id/}{Ma'had Al-Zaytun}}
+		{\texttt{\href{https://docs.microsoft.com/en-us/dotnet/visual-basic/}{Visual Basic}}}
+	\entry
+		{2008}
+		{Certificate of ICDL (International Computer Driving License)}
+		{\href{http://www.al-zaytun.sch.id/}{Ma'had Al-Zaytun}}
+		{\texttt{\href{https://www.office.com/}{Microsoft Office}}}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENT
+%----------------------------------------------------------------------------------------
+
+\cvsect{Achievement}
+
+\begin{entrylist}
+	\entry
+		{2017}
+		{\href{https://thegrandchallenge.mdec.my/mampu-open-data-hackathon-2017/}{Winner of MAMPU Open Data Hackathon 2017}}
+		{\href{https://mymagic.my/}{MAGIC}}
+		{An Android-based application that provides information for RapidKL's LRTs and buses arrival/ departure times. Information displayed are based on MAMPU's data, RapidKL's Twitter account and crowd source to increase the accuracy. \\
+ 			\texttt{\href{https://developer.android.com/}{Android}}
+				\slashsep
+			\texttt{\href{https://firebase.google.com/}{Firebase}}
+		}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+
+\cvsect{Projects}
+
+\begin{entrylist}
+	\entry
+		{2019}
+		{\href{https://github.com/azfaralsukor/iQR}{iQR}}
+		{\href{https://www.dattel.asia/}{Dattel Sdn. Bhd.}}
+		{An app that creates QR code with reader for iOS and Android.\\ 
+			\texttt{\href{https://flutter.dev/}{Flutter}}
+				\slashsep
+			\texttt{\href{https://www.dartlang.org/}{Dart}}
+		}
+	\entry
+		{2017}
+		{\href{https://azfaralsukor.github.io/Ludum-Dare-39/}{Find Out Yourself}}
+		{\href{https://www.zapzapmath.com/}{Zap Zap Math}}
+		{A trial and error puzzle where one needs to flip switches, toggle buttons and attach/detach power sockets before the city runs out of electricity.\\
+			\texttt{\href{https://unity3d.com/}{Unity}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/csharp/}{C\#}}
+		}
+	\entry
+		{2017}
+		{\href{https://ldjam.com/events/ludum-dare/38/see-you-again}{See You Again}}
+		{\href{https://www.mmu.edu.my/}{Multimedia University}}
+		{A 3D memory game where one needs to find a person again after meeting him/her. Designed the model using basic shapes provided by Unity. \\ 
+			\texttt{\href{https://unity3d.com/}{Unity}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/csharp/}{C\#}}
+		}
+	\entry
+		{2016}
+		{\href{https://github.com/azfaralsukor/Ludum-Dare-37}{Oath}}
+		{\href{http://www.apu.edu.my/}{Asia Pacific University}}
+		{A 2D game about a man saving the love of his life. Created from scratch and responsible for the game logic.\\ 
+			\texttt{\href{https://unity3d.com/}{Unity}}
+				\slashsep
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/csharp/}{C\#}}
+		}
+	\entry
+		{2016}
+		{Jat}
+		{\href{http://juristech.net/juristech/}{Juris Technologies}}
+		{Self testing system that automates every combination for a web application and reports the result depending on the priority.\\ 
+			\texttt{\href{https://phpunit.de/}{PHPUnit}}
+				\slashsep
+			\texttt{\href{https://www.seleniumhq.org/projects/webdriver/}{Selenium Webdriver}}
+		}
+	\entry
+		{2012}
+		{e-lection}
+		{\href{http://www.al-zaytun.sch.id/}{Ma'had Al-Zaytun}}
+		{A Windows-based application designed to boost the voting process of student body president.\\ 
+			\texttt{\href{https://docs.microsoft.com/en-us/dotnet/visual-basic/}{Visual Basic}}
+		}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Malay} - native\\
+	\textbf{English} - professional working proficiency\\
+	\textbf{Bahasa Indonesia} - professional working proficiency\\
+	\textbf{Mandarin} - limited working proficiency\\
+	\textbf{Arabic} - elementary proficiency
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	Playing guitar, reading, playing video games,  photography, listening to music, futsal, \\badminton and slumber experimentation.
+\end{minipage}
+\hfill
+\vspace*{30px}
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{References}
+	
+\textbf{Muhammad Norzariman} \\
+Senior Developer \\
+Dattel Sdn. Bhd \\
+Email: \href{mailto:tr32010@gmail.com}{tr32010@gmail.com} \\
+Tel No: \href{tel:+60129053298}{+6012-905 3298}
+
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
